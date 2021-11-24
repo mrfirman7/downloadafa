@@ -10,13 +10,13 @@
             display: flex;
             justify-content: center;
             height: 800px;
-            background-color: rgb(132, 205, 218);
+            background-color: #212529;
             align-items: center;
             font-family: 'Times New Roman', Times, serif;
         }
 
         .login{
-            background-color: rgb(253, 253, 253);
+            background-color: #f8f9fa;
             width: 350px;
             text-align: center;
             padding: 20px;
@@ -56,19 +56,21 @@
             background-color: rgb(255, 251, 251);
             transition: 0.5s;
         }
-        
+
         .login .input-group input:focus ~ span,
         .input .input-group input:valid ~ span{
             top: -12px;
             left: 20px;
             font-size: 15px;
-            background-color: rgb(154, 230, 240);
+            background-color: #212529;
+            color: white;
             padding: 2px 4px;
-            border: 1px solid #000;
-            border-radius: 5px;   
+            border: 1px solid;
+            border-radius: 5px;
         }
         .login .input-group input[type="submit"]{
-            background-color: rgb(126, 235, 243);
+            background-color: #212529;
+            color: white;
             border: none;
             text-transform: uppercase;
             font-weight: bold;
@@ -77,13 +79,14 @@
             width: 35%;
             transition: 0.5s;
         }
-        
+
     </style>
+
 </head>
 <body>
     <form>
         <div class="login">
-            <h2> Login DownloadAFA </h2><br>
+            <h2> SignIn DownloadAFA </h2><br>
             <div class="input-group">
                 <input type="text" required="">
                 <span>Email</span>
