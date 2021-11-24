@@ -1,0 +1,21 @@
+.navbar-light-blue{
+  background-color: lightskyblue;
+}
+.bi-cloud-arrow-down{
+  margin-right: 3px;
+}
+.navbar-brand{
+  margin-right: 2px;
+}
+.nav-item{
+  margin-left: 20px;
+}
+.fix{
+  margin: 3px;
+  padding: 5px;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
